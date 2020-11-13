@@ -1,0 +1,41 @@
+*{
+font-family: sans-serif;
+}
+body{
+    background: linear-gradient(125deg,skyblue,cyan,rgb(48, 68, 255),indigo);
+}
+.title{
+    color: lime;
+    text-shadow: 0 0 10px green,0 0 15px gray;
+}
+.flex{
+    display: flex;
+}
+
+h3{
+    margin-left: 10%;
+    font-size:25px ;
+}
+.liste{
+    display: flex;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 8%;
+
+}
+.liste .item{
+    display: flex;
+    
+}
+.liste .item h3{
+    
+   color:white;
+   text-shadow: 0 0 10px green,0 0 15px gray;
+   margin-right:5%;
+}
+.liste .item img{
+    width: 38%;
+    height:50%;
+    margin-left: -10%;
+    margin-right:-8%;
+}
